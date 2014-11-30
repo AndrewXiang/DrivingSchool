@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>DrivingSchool</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userLogin</servlet-name>
+    <servlet-class>servlet.userLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyPasswd</servlet-name>
+    <servlet-class>servlet.modifyPasswd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertStudent</servlet-name>
+    <servlet-class>servlet.insertStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryStudent</servlet-name>
+    <servlet-class>servlet.queryStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteStudent</servlet-name>
+    <servlet-class>servlet.deleteStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyStudent</servlet-name>
+    <servlet-class>servlet.modifyStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertHealth</servlet-name>
+    <servlet-class>servlet.insertHealth</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryHealth</servlet-name>
+    <servlet-class>servlet.queryHealth</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyHealth</servlet-name>
+    <servlet-class>servlet.modifyHealth</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteHealth</servlet-name>
+    <servlet-class>servlet.deleteHealth</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertGrade</servlet-name>
+    <servlet-class>servlet.insertGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryGrade</servlet-name>
+    <servlet-class>servlet.queryGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyGrade</servlet-name>
+    <servlet-class>servlet.modifyGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteGrade</servlet-name>
+    <servlet-class>servlet.deleteGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>insertLicense</servlet-name>
+    <servlet-class>servlet.insertLicense</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>queryLicense</servlet-name>
+    <servlet-class>servlet.queryLicense</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>modifyLicense</servlet-name>
+    <servlet-class>servlet.modifyLicense</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteLicense</servlet-name>
+    <servlet-class>servlet.deleteLicense</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userLogin</servlet-name>
+    <url-pattern>/servlet/userLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyPasswd</servlet-name>
+    <url-pattern>/servlet/modifyPasswd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertStudent</servlet-name>
+    <url-pattern>/servlet/insertStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryStudent</servlet-name>
+    <url-pattern>/servlet/queryStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteStudent</servlet-name>
+    <url-pattern>/servlet/deleteStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyStudent</servlet-name>
+    <url-pattern>/servlet/modifyStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertHealth</servlet-name>
+    <url-pattern>/servlet/insertHealth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryHealth</servlet-name>
+    <url-pattern>/servlet/queryHealth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyHealth</servlet-name>
+    <url-pattern>/servlet/modifyHealth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteHealth</servlet-name>
+    <url-pattern>/servlet/deleteHealth</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertGrade</servlet-name>
+    <url-pattern>/servlet/insertGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryGrade</servlet-name>
+    <url-pattern>/servlet/queryGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyGrade</servlet-name>
+    <url-pattern>/servlet/modifyGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteGrade</servlet-name>
+    <url-pattern>/servlet/deleteGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>insertLicense</servlet-name>
+    <url-pattern>/servlet/insertLicense</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>queryLicense</servlet-name>
+    <url-pattern>/servlet/queryLicense</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyLicense</servlet-name>
+    <url-pattern>/servlet/modifyLicense</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteLicense</servlet-name>
+    <url-pattern>/servlet/deleteLicense</url-pattern>
+  </servlet-mapping>
+</web-app>
